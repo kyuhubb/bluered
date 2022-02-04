@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BluRed</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class='bod2'>
+<h1 class='but'>copy & paste your link here<br><br>│<br>V</h1>
+	<div id='req'><input>　<button onclick='lesgo()'>GO!</button></div><br><br>
+	<img src='support.png'><br><br>
+	<p class='but'>*certains sites nécéssitent un lien spécifique dédié au partage (embeded)</p>
+<script>
+function lesgo(){
+	var url = document.getElementsByTagName('input')[0].value;
+	url = "watch.html?url="+url;
+	window.location = url;
+}
+</script>
+</body>
+</html>
